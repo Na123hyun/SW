@@ -23,4 +23,3 @@
         numder1 * numder2
     else op="/":
         numder1 / numder2
-
