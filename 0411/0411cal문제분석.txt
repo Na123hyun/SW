@@ -1,0 +1,26 @@
+문제정의
+    정수 2개와 연산자 1개(+,-,*,/)를 입력 받아서
+    사칙연산을 수행하는 프로그램 작성
+
+문제분석
+1. 변수-numder1(정수),numder2(정수),op(+,-,*,/)
+
+2. 수식
+    사칙연산
+    numder1 op numder2
+
+알고리즘
+     1.변수 선언
+        numder1에 정수 입력
+        op에 정수 입력
+        numder2에 정수 입력
+    2. 조건처리(다중 if)
+    if op="+":
+        numder1 + numder2 
+    elif op="-":
+        numder1 - numder2
+    elif op="*":
+        numder1 * numder2
+    else op="/":
+        numder1 / numder2
+
