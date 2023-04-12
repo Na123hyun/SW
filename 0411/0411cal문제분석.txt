@@ -21,5 +21,7 @@
         numder1 - numder2
     elif op="*":
         numder1 * numder2
-    else op="/":
+    elif op="/":
         numder1 / numder2
+    else:
+    print("해당 연산자는 없습니다.")
