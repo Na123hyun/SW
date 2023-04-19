@@ -23,13 +23,14 @@
 su1=int(input("x 입력:"))
 su2=int(input("y 입력:"))
 
-if su1>su2:
-    if su2!=0:
-        print(su1//su2)
-elif su1<su2:
-    print(su1+su2)
+if su1 < su2:
+    print("{} + {} = {}".format(su1,su2,su1+su2))
+elif su1==su2:
+    print("{} * {} = {}".format(su1,su2,su1*su2))
+elif su1 > su2 and su2!=0:
+    print("{} // {} = {}".format(su1,su2,su1//su2))
 else:
-    print(su1*su2)
+    print("y의 값이 0입니다.")
 
 
 
