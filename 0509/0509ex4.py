@@ -22,7 +22,7 @@ num = int(input("배수 숫자 입력 : "))
 sum = 0
 i = 0
 
-while i <= 100 : 
+while i < 100 : #선택조건 
     i = i + 1
     if  i%num !=0 : #선택 조건(i가 num의 배수가 아니면)
         continue #반복의 처음으로 이동
