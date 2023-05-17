@@ -13,6 +13,6 @@ L1 = ['충청남도','충청북도\n','전라남도','전라북도\n','경상남
 L2 = [1,2,3,4,5]
 
 #with 구문으로 파일 객체 생성
-with open("C:/data/test.txt","w") as f :
+with open("C:/data//linetest.txt","w") as f :
 
     f.writelines(L1) #L1 리스트 내용을 파일에 출력
